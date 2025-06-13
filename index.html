@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingi Jayanth | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="matrix-background">
+        <canvas id="matrix-canvas"></canvas>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <a href="index.html" class="logo-link">
+            <div class="logo">
+                <span class="bracket">{</span> JB <span class="bracket">}</span>
+            </div>
+        </a>
+        <nav>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="container reveal-section">
+                <div class="home-content">
+                    <div class="glitch-wrapper">
+                        <h1 class="glitch" data-text="BINGI JAYANTH">BINGI JAYANTH</h1>
+                    </div>
+                    <div class="typewriter">
+                        <h2 id="typewriter-text"></h2>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:bingijayanth21@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/jayanth-bingi-b05bb3307" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/jayanth217" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://hackerrank.com/22241a0515_jayy" target="_blank" class="social-icon" aria-label="HackerRank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                        <a href="https://leetcode.com/jayanth2174" target="_blank" class="social-icon" aria-label="LeetCode">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary-btn">Contact Me</a>
+                        <a href="#projects" class="btn secondary-btn">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container reveal-section">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-content">
+                    <div class="about-content">
+                        <div class="about-image">
+                            <div class="image-container">
+                                <div class="hexagon">
+                                    <div class="hexagon-inner">
+                                        <img src="images/Jayy.jpg" alt="Bingi Jayanth">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <p>Emerging Software Engineer with a robust foundation in computer science and a keen interest in solving complex engineering problems. Proficient in Java and recognized for strong problem-solving skills and a proactive approach.</p>
+                            <p>Currently enhancing expertise through practical application and continuous learning. Committed to leveraging technical abilities and innovative thinking to develop scalable software solutions and contribute effectively to dynamic projects.</p>
+                            <div class="about-details">
+                                <div class="detail">
+                                    <span class="detail-title">Name:</span>
+                                    <span class="detail-value">Bingi Jayanth</span>
+                                </div>
+                                <div class="detail">
+                                    <span class="detail-title">Email:</span>
+                                    <span class="detail-value">bingijayanth21@gmail.com</span>
+                                </div>
+                                <div class="detail">
+                                    <span class="detail-title">Phone:</span>
+                                    <span class="detail-value">+91 9154967494</span>
+                                </div>
+                                <div class="detail">
+                                    <span class="detail-title">Location:</span>
+                                    <span class="detail-value">Hyderabad, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container reveal-section">
+                <h2 class="section-title">Education</h2>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>B.Tech in Computer Science</h3>
+                                <h4>Gokaraju Rangaraju Institute of Engineering and Technology</h4>
+                                <p class="timeline-date">Nov. 2022 – July 2026</p>
+                                <p class="timeline-description">CGPA: 9.55</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Class XII, MPC</h3>
+                                <h4>Alphores Junior College</h4>
+                                <p class="timeline-date">June 2020 – May 2022</p>
+                                <p class="timeline-description">Percentage: 98.5</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Class X</h3>
+                                <h4>Vasant Valley High School</h4>
+                                <p class="timeline-date">June 2019 – March 2020</p>
+                                <p class="timeline-description">CGPA: 10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container reveal-section">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-content">
+                    <div class="projects-grid">
+                        <div class="project-card" data-project="project1">
+                            <div class="project-card-inner">
+                                <div class="project-card-front">
+                                    <div class="project-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <h3>EduMind</h3>
+                                    <p>AI-Powered Interactive Study Companion</p>
+                                </div>
+                                <div class="project-card-back">
+                                    <h3>EduMind</h3>
+                                    <p>AI-powered interactive study companion platform with real-time explanations, quiz generation, and lecture note summarization.</p>
+                                    <button class="btn project-btn">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card" data-project="project2">
+                            <div class="project-card-inner">
+                                <div class="project-card-front">
+                                    <div class="project-icon">
+                                        <i class="fas fa-satellite"></i>
+                                    </div>
+                                    <h3>Dimensionality Reduction</h3>
+                                    <p>Classification of Remote Sensing Images</p>
+                                </div>
+                                <div class="project-card-back">
+                                    <h3>Dimensionality Reduction</h3>
+                                    <p>Used SubXPCA for nonlinear remote sensing data classification and dimensionality reduction.</p>
+                                    <button class="btn project-btn">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card" data-project="project3">
+                            <div class="project-card-inner">
+                                <div class="project-card-front">
+                                    <div class="project-icon">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <h3>Vehicle Rental System</h3>
+                                    <p>Database Management System</p>
+                                </div>
+                                <div class="project-card-back">
+                                    <h3>Vehicle Rental System</h3>
+                                    <p>Designed SQL database with stored procedures, cursors, and ER model for efficient data handling</p>
+                                    <button class="btn project-btn">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card" data-project="project4">
+                            <div class="project-card-inner">
+                                <div class="project-card-front">
+                                    <div class="project-icon">
+                                        <i class="fas fa-map-marked-alt"></i>
+                                    </div>
+                                    <h3>Triptown</h3>
+                                    <p>Season & Theme-Based Travel Guide</p>
+                                </div>
+                                <div class="project-card-back">
+                                    <h3>Triptown</h3>
+                                    <p>Developed a dynamic travel recommendation platform that categorizes destinations based on seasons and user-selected themes.</p>
+                                    <button class="btn project-btn">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Modals -->
+            <div class="modal" id="project1-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>EduMind: AI-Powered Interactive Study Companion</h2>
+        <div class="modal-body">
+            <div class="modal-image-carousel">
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn" aria-label="Previous image">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-images">
+                        <img src="images/Edumind.jpg" alt="EduMind Project - Main Interface" class="carousel-image active">
+                        <img src="images/Dashboard.jpg" alt="EduMind Dashboard" class="carousel-image">
+                        <img src="images/AI_chat.png" alt="Quiz Generation Feature" class="carousel-image">
+                        <img src="images/summarization.png" alt="Note Summarization" class="carousel-image">
+                    </div>
+                    <button class="carousel-btn next-btn" aria-label="Next image">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                </div>
+            </div>
+            <div class="modal-details">
+                <h3>Project Overview</h3>
+                <p>Developing an AI-powered interactive study companion platform that provides real-time explanations, quiz generation, and lecture note summarization using self-hosted LLMs (Mistral, Phi, Gemma via Ollama).</p>
+                <h3>Technologies Used</h3>
+                <ul class="tech-list">
+                    <li>Self-hosted LLMs (Mistral, Phi, Gemma)</li>
+                    <li>FAISS/ChromaDB</li>
+                    <li>FastAPI Backend</li>
+                    <li>NodeJS</li>
+                    <li>Python</li>
+                </ul>
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Real-time explanations</li>
+                    <li>Quiz generation</li>
+                    <li>Lecture note summarization</li>
+                    <li>Search Materials</li>
+                    <li>Privacy-focused learning</li>
+                </ul>
+                <div class="project-actions">
+                    <a href="https://github.com/jayanth217/Edumind" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="project2-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Dimensionality Reduction and Classification of Remote Sensing Images</h2>
+        <div class="modal-body">
+            <div class="modal-image-carousel">
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn" aria-label="Previous image">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-images">
+                        <img src="images/RSI_0.png" alt="Remote Sensing Analysis" class="carousel-image active">
+                        <img src="images/RSI_2.jpg" alt="Data Visualization" class="carousel-image">
+                        <img src="images/RSI_1.jpg" alt="Algorithm Performance" class="carousel-image">
+                    </div>
+                    <button class="carousel-btn next-btn" aria-label="Next image">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                </div>
+            </div>
+            <div class="modal-details">
+                <h3>Project Overview</h3>
+                <p>Applied Subspace Extreme Learning Machine (SubXPCA) for dimensionality reduction and classification of nonlinear remote sensing data using Python machine learning techniques.</p>
+                <h3>Technologies Used</h3>
+                <ul class="tech-list">
+                    <li>Python</li>
+                    <li>Machine Learning</li>
+                    <li>SubXPCA Algorithm</li>
+                    <li>Remote Sensing Data Analysis</li>
+                </ul>
+                <h3>Key Achievements</h3>
+                <ul>
+                    <li>Improved model accuracy from 70% to 82%</li>
+                    <li>Optimized algorithms for better performance</li>
+                    <li>Led a team to develop the machine learning model</li>
+                </ul>
+                <div class="project-actions">
+                    <a href="https://github.com/jayanth217/Dimensionality-Reduction-and-Classification-in-RSI" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                    <a href="https://drive.google.com/file/d/1isCttZPNW_PihFb0DB6_1SN6urvvhgo5/view?usp=sharing" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fas fa-file-alt"></i> Documentation
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="project3-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Vehicle Rental Management System</h2>
+        <div class="modal-body">
+            <div class="modal-image-carousel">
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn" aria-label="Previous image">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-images">
+                        <img src="images/vechile.jpg" alt="Database Schema" class="carousel-image active">
+                        <!-- <img src="/placeholder.svg?height=300&width=500&text=Admin+Dashboard" alt="Admin Dashboard" class="carousel-image">
+                        <img src="/placeholder.svg?height=300&width=500&text=Rental+Interface" alt="Rental Interface" class="carousel-image">
+                        <img src="/placeholder.svg?height=300&width=500&text=Reports+Analytics" alt="Reports and Analytics" class="carousel-image"> -->
+                    </div>
+                    <button class="carousel-btn next-btn" aria-label="Next image">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <!-- <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span> -->
+                </div>
+            </div>
+            <div class="modal-details">
+                <h3>Project Overview</h3>
+                <p>Designed database using SQL, incorporating stored procedures, cursors, and an Entity-Relationship (ER) Model to streamline data manipulation and enhance functionality.</p>
+                <h3>Technologies Used</h3>
+                <ul class="tech-list">
+                    <li>SQL</li>
+                    <li>Database Design</li>
+                    <li>Stored Procedures</li>
+                    <li>ER Modeling</li>
+                </ul>
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Efficient data management</li>
+                    <li>Streamlined data manipulation</li>
+                    <li>Enhanced system functionality</li>
+                    <li>Practical database modeling experience</li>
+                </ul>
+                <div class="project-actions">
+                    <a href="https://github.com/bingijayanth" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                    <a href="https://drive.google.com/file/d/1CMNRe-8uvN3xVmJ3eUgc9fglbegQRPaA/view?usp=sharing" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fas fa-file-alt"></i> Documentation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="project4-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Triptown – Season & Theme Based Travel Guide</h2>
+        <div class="modal-body">
+            <div class="modal-image-carousel">
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn" aria-label="Previous image">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-images">
+                        <img src="images/Triptown1.png" alt="Triptown Homepage" class="carousel-image active">
+                        <img src="images/Triptown2.png" alt="Destination Filtering" class="carousel-image">
+                        <img src="images/triptown3.png" alt="Trip Details Page" class="carousel-image">
+                        <img src="images/triptown4.png" alt="Trip Details Page" class="carousel-image">
+                        <img src="images/triptown5.png" alt="Trip Details Page" class="carousel-image">
+                    </div>
+                    <button class="carousel-btn next-btn" aria-label="Next image">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                    <span class="indicator" data-slide="4"></span>
+                </div>
+            </div>
+            <div class="modal-details">
+                <h3>Project Overview</h3>
+                <p>
+                    Triptown is a travel recommendation web application that helps users explore destinations based on seasonal preferences and thematic interests like adventure, relaxation, culture, or nature. The platform ensures a tailored travel planning experience using categorized filtering.
+                </p>
+                <h3>Technologies Used</h3>
+                <ul class="tech-list">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Responsive Web Design</li>
+                    <li>Dynamic Filtering Logic</li>
+                    <li>Frontend Frameworks (if used: React/Bootstrap)</li>
+                </ul>
+                <h3>Key Achievements</h3>
+                <ul>
+                    <li>Created an intuitive UI for seasonal and theme-based destination discovery</li>
+                    <li>Increased user engagement through interactive filtering and visuals</li>
+                    <!-- <li>Designed for scalability to include hotel bookings, maps, and weather APIs</li> -->
+                </ul>
+                <div class="project-actions">
+                    <a href="https://github.com/jayanth217/triptown" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                    <a href="https://triptown.netlify.app" target="_blank" class="btn primary-btn github-btn">
+                        <i class="fas fa-globe"></i> live demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container reveal-section">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-content">
+                    <div class="skills-container">
+                        <div class="skills-category">
+                            <h3>Programming Languages</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-java"></i>
+                                    </div>
+                                    <h4>Java</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <h4>Python</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <h4>C</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <h4>SQL</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h3>Development</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-html5"></i>
+                                    </div>
+                                    <h4>HTML</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-css3-alt"></i>
+                                    </div>
+                                    <h4>CSS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-js"></i>
+                                    </div>
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-react"></i>
+                                    </div>
+                                    <h4>ReactJS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-node-js"></i>
+                                    </div>
+                                    <h4>NodeJS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="75"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h3>Technical Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <h4>DBMS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                    <h4>OS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <h4>Problem Solving</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-project-diagram"></i>
+                                    </div>
+                                    <h4>DSA</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h3>Tools</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <h4>GitHub</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <h4>VSCode</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-cloud"></i>
+                                    </div>
+                                    <h4>Netlify</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-leaf"></i>
+                                    </div>
+                                    <h4>MongoDB</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="75"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-fire"></i>
+                                    </div>
+                                    <h4>Firebase</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container reveal-section">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-content">
+                    <div class="experience-container">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-title">
+                                    <h3>Project Lead</h3>
+                                    <h4>Dimensionality Reduction and Classification of RSI</h4>
+                                </div>
+                                <div class="experience-meta">
+                                    <div class="experience-company">GRIET, Hyderabad, Telangana</div>
+                                    <div class="experience-date">March 2024</div>
+                                </div>
+                            </div>
+                            <div class="experience-body">
+                                <ul class="experience-details">
+                                    <li>Led a team to develop a machine learning model for reducing the dimensionality of remote sensing images through Subxpca.</li>
+                                    <li>Improved the model's accuracy from 70% to 82% by optimizing algorithms.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-title">
+                                    <h3>Documentation Head</h3>
+                                    <h4>Computer Society of India (CSI)</h4>
+                                </div>
+                                <div class="experience-meta">
+                                    <div class="experience-company">Core Committee Member</div>
+                                    <div class="experience-date">Jan 2025 - Present</div>
+                                </div>
+                            </div>
+                            <div class="experience-body">
+                                <ul class="experience-details">
+                                    <li>Managing and overseeing documentation processes for CSI events, projects, and reports.</li>
+                                    <li>Collaborating with the core committee to organize technical workshops and events.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container reveal-section">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-content">
+                    <div class="contact-container">
+                        <div class="contact-info">
+                            <a href="https://maps.google.com/?q=Hyderabad,India" target="_blank" class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Location</h3>
+                                    <p>Hyderabad, India</p>
+                                </div>
+                            </a>
+                            <a href="mailto:bingijayanth21@gmail.com" class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p>bingijayanth21@gmail.com</p>
+                                </div>
+                            </a>
+                            <a href="tel:+919154967494" class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Phone</h3>
+                                    <p>+91 9154967494</p>
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/jayanth-bingi-b05bb3307" target="_blank" class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>LinkedIn</h3>
+                                    <p>jayanth-bingi</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="contact-form-container">
+    <form id="contact-form" action="https://formsubmit.co/bingijayanth21@gmail.com" method="POST">
+        <!-- FormSubmit.co configuration -->
+        <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://jayanth217.github.io/thank-you.html">
+        
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <div class="form-line"></div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <div class="form-line"></div>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <div class="form-line"></div>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <div class="form-line"></div>
+        </div>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+    </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo-link">
+                    <div class="footer-logo">
+                        <span class="bracket">{</span> JB <span class="bracket">}</span>
+                    </div>
+                </a>
+                <div class="footer-text">
+                    <p>&copy; 2025 Bingi Jayanth. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:bingijayanth21@gmail.com" class="social-icon" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/jayanth-bingi-b05bb3307" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1UJMBZag6JUU8Rz73ExcizAS6HzFo3sxK/view?usp=sharing" 
+                        target="_blank" 
+                        class="social-icon" 
+                        aria-label="Resume">
+                        <i class="fas fa-file-alt"></i> <!-- Resume icon -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="notification" id="notification">
+        <div class="notification-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="notification-content">
+            <p class="notification-message">Message sent successfully!</p>
+        </div>
+        <div class="notification-close">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
